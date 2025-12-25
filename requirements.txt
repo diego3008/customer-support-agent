@@ -2,3 +2,12 @@ google-api-python-client
 google-auth-httplib2
 google-auth-oauthlib
 pydantic
+langgraph
+langgraph-prebuilt
+langgraph-sdk
+langgraph-checkpoint-sqlite
+langsmith
+langchain-community
+langchain-core
+langchain-openai
+langgraph-cli[inmem]

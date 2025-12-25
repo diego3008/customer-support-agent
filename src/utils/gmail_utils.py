@@ -6,7 +6,7 @@ from google.auth.transport.requests import Request
 from googleapiclient.discovery import build 
 import os
 
-from state import Email
+from ..state import Email
 
 SCOPES = [
     'https://www.googleapis.com/auth/gmail.modify'
