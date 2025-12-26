@@ -67,7 +67,7 @@ def _parse_email_message(message: str) -> Email:
 def get_most_recent_email() -> Email | str: 
     service = _get_gmail_service()
     today = datetime.datetime.now().date()
-    query = f'after:{today.strftime("%Y/%m/%d")}' # after:18/07/2025
+    query = f'after:{today.strftime("%Y/%m/%d")}'
     try:
         results = service.users().messages().list(userId='me', q=query, maxResults=1).execute()
         email_message_data = results.get('messages', [])[0]
