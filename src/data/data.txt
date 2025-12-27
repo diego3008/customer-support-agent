@@ -1,6 +1,6 @@
 **OPEN BOX – Apple**
 
-| Model                   | Promo | 12 Months |
+| Model                   | Price | 12 Months |
 | ------------------------ | ----: | -------: |
 | iPhone 13 128 GB         | \$447 |     \$47 |
 | iPhone 13 256 GB         | \$517 |     \$54 |
@@ -26,7 +26,7 @@
 
 ### AirPods
 
-| Model                                   | Promo | 12 Months |
+| Model                                   | Price | 12 Months |
 | ---------------------------------------- | ----: | -------: |
 | AirPods 4                                | \$197 |     \$18 |
 | AirPods 4 With Active Noise Cancellation | \$267 |     \$26 |
@@ -37,7 +37,7 @@
 
 ### Apple Watch
 
-| Model                   | Promo | 12 Meses |
+| Model                   | Price | 12 Months |
 | ------------------------ | ----: | -------: |
 | Apple Watch SE 2nd 40 mm | \$287 |     \$29 |
 | Apple Watch SE 2nd 44 mm | \$337 |     \$34 |
@@ -48,7 +48,7 @@
 
 **MacBook**
 
-| Model                                 |                       Promo |     12 Meses |         |       |
+| Model                                 |                       Price |     12 Months |         |       |
 | -------------------------------------- | --------------------------: | -----------: | ------- | ----- |
 | MacBook Air M1 13.3″ 8 GB RAM          |                 256 GB SSD  |        \$877 | \$83    |       |
 | MacBook Air M3 13″ 8 GB RAM            |                 256 GB SSD  |      \$1,197 | \$121   |       |

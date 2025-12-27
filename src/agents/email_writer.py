@@ -12,7 +12,7 @@ load_dotenv()
 def _create_email_writer_chain(use_rag: bool = False, use_structured_output: bool = False):
     """Create an email writer chain with configurable RAG and structured output"""
     # Create the LLM
-    llm = ChatOpenAI(model="gpt-4o-mini")
+    llm = ChatOpenAI(model="gpt-4.1")
     
     # Add RAG tools if needed
     if use_rag:

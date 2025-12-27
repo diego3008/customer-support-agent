@@ -45,10 +45,11 @@ def email_writer_with_context_node(state: GraphState):
     body, category = email_data
 
     context = state.get("messages")[-1].content if state.get("messages") else ""
-    
-    result = AGENT_REGISTRY["query_or_email"].invoke({
+
+    result = AGENT_REGISTRY["email_writer_with_context"].invoke({
         "email_content": body,
         "email_category": category,
         "context": context
     })
-    return _process_email_writer_result(result=result, state=state)
+    state["email_response"] = result
+    return state

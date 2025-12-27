@@ -17,7 +17,7 @@ text_splitter = RecursiveCharacterTextSplitter.from_tiktoken_encoder(
 docs_splits = text_splitter.split_documents(documents)
 
 vectorstore = Chroma.from_documents(documents=docs_splits, embedding=OpenAIEmbeddings(), persist_directory="./chroma_db")
-retriever = vectorstore.as_retriever(search_kwargs={"k":3})
+retriever = vectorstore.as_retriever(search_kwargs={"k":6})
 
 retriever_tool = create_retriever_tool(retriever, "retrieve_products_and_services_information", "Search and return information about products and serivices.")
 
