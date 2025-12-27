@@ -4,7 +4,7 @@ from src.state import GraphState, Email
 def _get_email_data(state: GraphState):
     """Extract common email data from state"""
     current_email = state.get("current_email")
-    category = state.get("category")
+    category = state.get("email_category")
 
     if not current_email or not category:
         print("No email or category found in state")
@@ -43,8 +43,9 @@ def email_writer_with_context_node(state: GraphState):
         state["email_response"] = ""
         return state
     body, category = email_data
-    context = state["get_messages"][-1].content if state.get("messages") else ""
 
+    context = state.get("messages")[-1].content if state.get("messages") else ""
+    
     result = AGENT_REGISTRY["query_or_email"].invoke({
         "email_content": body,
         "email_category": category,

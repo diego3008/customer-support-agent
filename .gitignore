@@ -82,3 +82,4 @@ ipython_config.py
 .python-version
 
 #
+chroma_db/

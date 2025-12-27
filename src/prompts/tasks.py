@@ -29,7 +29,7 @@ Instructions:
        - Maintains a helpful, professional tone
     5. Use the following structure to create the email:
         - id: The email id
-        - subject: Subject of the email
+        - subject: Subject of the email, start with Re: 
         - sender: Sender email address (in this case, diegoarlechuga@gmail.com, make sure to use 
         CellPhone SA <diegoarlechuga@gmail.com>)
         - date: Date when the email was sent

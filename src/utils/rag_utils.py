@@ -2,7 +2,7 @@ from langchain_community.document_loaders import TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
-from langchain.tools import create_retriever_tool
+from langchain.tools.retriever import create_retriever_tool
 from dotenv import load_dotenv
 
 load_dotenv()
